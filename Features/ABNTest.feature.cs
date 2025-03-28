@@ -83,11 +83,11 @@ namespace ABN_Test.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Open ABN Lookup page")]
-        [NUnit.Framework.CategoryAttribute("TestScenarioHere")]
+        [NUnit.Framework.CategoryAttribute("TestTagExample")]
         public async System.Threading.Tasks.Task OpenABNLookupPage()
         {
             string[] tagsOfScenario = new string[] {
-                    "TestScenarioHere"};
+                    "TestTagExample"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("Open ABN Lookup page", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 6
