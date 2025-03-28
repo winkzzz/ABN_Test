@@ -17,7 +17,7 @@ namespace ABN_Test.Hooks
         [BeforeScenario("@TestTagExample")]
         public void BeforeScenarioWithTag()
         {
-           //edit the tag to add methods before the scenario tag
+           //edit the tag to add methods before the scenario tags
         }
 
         [BeforeScenario(Order = 1)]
